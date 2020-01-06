@@ -1,0 +1,226 @@
+.singel_blog_beddram {
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    display: flex;
+
+    p.p-right {
+        width: 50%;
+        text-align: right;
+        margin-bottom: 10px;
+        letter-spacing: .1em;
+        font-family: 'Roboto Slab', serif;
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+
+    p.p-left {
+        width: 50%;
+
+        margin-bottom: 10px;
+        letter-spacing: .1em;
+        font-family: 'Roboto Slab', serif;
+        font-size: .8em;
+        line-height: 1.5em;
+
+    }
+}
+
+.post {
+    h1 {
+        font-size: 35px;
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 4px;
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 32px;
+        font-size: 18px;
+
+    }
+
+    .entry-meta {
+        margin-bottom: 25px;
+
+        p {
+            font-size: 12px;
+            letter-spacing: 1px;
+
+            span {
+                margin: 0 7px;
+            }
+        }
+    }
+
+    img.wp-post-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 30px;
+        max-height: 490px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+
+
+
+    .btn {
+        border-radius: 2px;
+        padding: 7px 25px 4px 15px;
+        font-size: 18px;
+        font-weight: 500;
+        max-width: 200px;
+
+        svg {
+            font-size: 22px;
+            margin-right: 5px;
+        }
+    }
+
+    .btn.focus,
+    .btn:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);
+    }
+
+    .crunchify-link {
+        color: white;
+        margin: 8px 8px;
+    }
+
+    .crunchify-link:hover,
+    .crunchify-link:active {
+        color: white;
+    }
+
+    .crunchify-twitter {
+        background: #00aced;
+    }
+
+    .crunchify-twitter:hover,
+    .crunchify-twitter:active {
+        background: #0084b4;
+    }
+
+    .crunchify-facebook {
+        background: #3B5997;
+    }
+
+    .crunchify-facebook:hover,
+    .crunchify-facebook:active {
+        background: #2d4372;
+    }
+
+    .crunchify-googleplus {
+        background: #D64937;
+    }
+
+    .crunchify-googleplus:hover,
+    .crunchify-googleplus:active {
+        background: #b53525;
+    }
+
+    .crunchify-pinterest {
+        background: #bd081c;
+    }
+
+    .crunchify-pinterest:hover,
+    .crunchify-pinterest:active {
+        background: #bd081c;
+    }
+
+    .crunchify-linkedin {
+        background: #0074A1;
+    }
+
+    .crunchify-linkedin:hover,
+    .crunchify-linkedin:active {
+        background: #006288;
+    }
+
+    .crunchify-social {
+        margin: 20px 0px 25px 0px;
+        -webkit-font-smoothing: antialiased;
+        font-size: 12px;
+        max-width: 850px;
+        margin: 40px auto;
+    }
+
+    .entry-footer {
+        iframe {
+            margin: 20px auto 10px;
+            display: block;
+            border: 4px solid $primary_color;
+            border-radius: 2px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 30px;
+        }
+    }
+
+}
+
+#comments {
+    margin: 40px auto 80px;
+    max-width: 800px;
+}
+
+.blog_map {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 19px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+}
+
+.side_form_quotation {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    h2{
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 3px;
+    }
+    a {
+        font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+    form{
+        margin-top: 25px;
+        p{
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .btn-warning:hover,.btn-warning {
+            color: #212529;
+            background-color: $secandery_color;
+            border-color:$secandery_color;
+        }
+
+        .btn {
+            font-weight: 600;
+            padding: .400rem .75rem;
+        }
+    }
+}
